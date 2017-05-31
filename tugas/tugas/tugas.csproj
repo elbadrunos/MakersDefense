@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B17CB162-FB2F-4DD9-9E9C-705F3DBF0085}</ProjectGuid>
+    <ProjectGuid>{343806F0-56D8-4CC9-AC03-DB89932434C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MakersDefense</RootNamespace>
-    <AssemblyName>MakersDefense</AssemblyName>
+    <RootNamespace>tugas</RootNamespace>
+    <AssemblyName>tugas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,16 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mdexception.cs" />
-    <Compile Include="Invader.cs" />
-    <Compile Include="Map.cs" />
-    <Compile Include="MapLocation.cs" />
-    <Compile Include="Path.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Point.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tower.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
